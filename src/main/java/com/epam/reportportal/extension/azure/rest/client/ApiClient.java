@@ -75,7 +75,7 @@ import org.threeten.bp.format.DateTimeFormatter;
 
 public class ApiClient {
 
-    private String basePath = "https://dev.azure.com";
+    private String basePath = "https://tfs.saxofintech.com/";
     private boolean debugging = false;
     private Map<String, String> defaultHeaderMap = new HashMap<String, String>();
     private String tempFolderPath = null;
